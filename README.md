@@ -156,8 +156,9 @@ Common environment variables:
 | after | `F` | 192 |
 | after | `NLAYER` | 6 |
 | after | `NCROSS` | 2 |
-| after | `NSTEP` | 100000 |
-| after | `BATCH` | 16 |
+| after | `NSTEP` | 15000 |
+| after | `TPER` | 20000 |
+| after | `BATCH` | 64 |
 | after | `NWORKERS` | 6 |
 
 New training outputs are written to `weights/runs/`; `formal/` and `ablations/` are not overwritten.

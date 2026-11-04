@@ -154,8 +154,9 @@ python code\after\train_after.py
 | after | `F` | 192 |
 | after | `NLAYER` | 6 |
 | after | `NCROSS` | 2 |
-| after | `NSTEP` | 100000 |
-| after | `BATCH` | 16 |
+| after | `NSTEP` | 15000 |
+| after | `TPER` | 20000 |
+| after | `BATCH` | 64 |
 | after | `NWORKERS` | 6 |
 
 新训练结果写入 `weights/runs/`，不会覆盖 `formal/` 与 `ablations/`。
