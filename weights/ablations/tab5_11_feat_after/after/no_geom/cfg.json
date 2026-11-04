@@ -1,0 +1,29 @@
+{
+ "F": 192,
+ "NLAYER": 6,
+ "NCROSS": 2,
+ "NFEAT": 5,
+ "NBIAS": 1,
+ "NSTEP": 15000,
+ "TPER": 20000,
+ "LR": 0.0003,
+ "ETA_MIN": 3e-05,
+ "BATCH": 64,
+ "NSC": 2,
+ "NWORKERS": 6,
+ "W_ANG": 0.1,
+ "AW": "bg",
+ "MODE": "resid",
+ "AB": {
+  "nobias": false,
+  "nogeom": true,
+  "nomed": false
+ },
+ "ab_name": "no-nogeom",
+ "VAL": 2000,
+ "VAL_PAIRS": 100,
+ "SMAX": "0",
+ "S_DIR": "",
+ "CACHE": "E:\\RTE_JEPA\\RTE_DL\\DataSet\\after\\cache_node",
+ "lr_end": 6.954058453981609e-05
+}
